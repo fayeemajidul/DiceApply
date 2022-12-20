@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="email" value="fafag@gmail.com"/>
+    <parameter name="password" value="LebronJames123"/>
+
+    <!--Test 1-->
+    <test name="Regression WebBrowser Registration">
+        <classes>
+            <class name="Test11_End_To_End_WebBrowser.Web_AutomatedApply.WebBrowserApply.Automaton.ApplyFramework"/>
+        </classes>
+    </test>
+
+</suite>

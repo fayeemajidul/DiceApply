@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test name="#Test 0: End To End Mobile Test">-->
+<!--        <classes>-->
+<!--            <class name="Mobile_AutomatedApply.MobileAutomationFramework.ExecuteFramework"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="#Test 1: Integration Mobile Home">
+        <classes>
+            <class name="Test01_Home_Login.Test01_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 2: Validation Test">
+        <classes>
+            <class name="Test02_Invalid_User.Test02_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 3: Validation User">
+        <classes>
+            <class name="Test03_Invalid_Pass.Test03_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 4: Validation Pass">
+        <classes>
+            <class name="Test04_Invalid_User_Pass.Test04_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 5: Smoke Test Filter">
+        <classes>
+            <class name="Test05_SmokeTest_SearchFilter.Test05_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 6: Validation Filter">
+        <classes>
+            <class name="Test06_Invalid_Filter_Option.Test06_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 7: Integration Career Page">
+        <classes>
+            <class name="Test07_Integration_Career.Test07_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 8: Sanity Logic User Apply Page">
+        <classes>
+            <class name="Test08_Sanity_User_Applied.Test08_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 9: Easy Apply functional test">
+        <classes>
+            <class name="Test09_Functional_Test_EasyApply.Test09_ExecuteFramework"/>
+        </classes>
+    </test>
+
+    <test name="#Test 10: ">
+        <classes>
+            <class name="Test10_Verify_Submit_Status.Test10_ExecuteFramework"/>
+        </classes>
+    </test>
+
+</suite>
