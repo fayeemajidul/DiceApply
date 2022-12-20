@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-<!--    <test name="#Test 0: End To End Mobile Test">-->
-<!--        <classes>-->
-<!--            <class name="Mobile_AutomatedApply.MobileAutomationFramework.ExecuteFramework"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="#Test 0: End To End Mobile Test">
+        <classes>
+            <class name="Mobile_AutomatedApply.MobileAutomationFramework.ExecuteFramework"/>
+        </classes>
+    </test>
 
     <test name="#Test 1: Integration Mobile Home">
         <classes>
